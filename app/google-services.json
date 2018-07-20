@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330404749052",
+    "firebase_url": "https://fir-authentication-48e89.firebaseio.com",
+    "project_id": "fir-authentication-48e89",
+    "storage_bucket": "fir-authentication-48e89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330404749052:android:17be13e86e7c40b1",
+        "android_client_info": {
+          "package_name": "tanvir.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330404749052-kcg1882bt8s5k3873m9is5r1694q7prm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tanvir.firebaseauthentication",
+            "certificate_hash": "4f821b0b7ac49583cd8061fd355e00db6204c2f5"
+          }
+        },
+        {
+          "client_id": "330404749052-2tlapus7db134ab1kj432qbhdfkhq82f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS2xU4J-xk8-WM7n_9ZrNzCqpIhRutAHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330404749052-2tlapus7db134ab1kj432qbhdfkhq82f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

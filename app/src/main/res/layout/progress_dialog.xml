@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/progress_diaog_color"
+            android:indeterminateTintMode="src_atop" />
+
+        <TextView
+            android:id="@+id/loading_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:text="ডাটা লোড হচ্ছে"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/progress_diaog_color" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/animatedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:layout_toEndOf="@+id/loader"
+        android:text=""
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/progress_diaog_color" />
+
+</LinearLayout>
